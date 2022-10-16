@@ -20,4 +20,4 @@ events:
     steps:
       - fail:
           script:
-            - pipelines-artifact fail 
+            - pipelines-artifact fail
