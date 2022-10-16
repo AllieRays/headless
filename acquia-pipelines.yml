@@ -1,0 +1,23 @@
+# For more acquia-pipelines.yaml pipelines examples, see
+# https://docs.acquia.com/pipelines/yaml/examples/
+version: 1.0.0
+variables:
+  global:
+
+events:
+  build:
+    steps:
+      - build:
+          script:
+            - nvm install 10
+            - nvm use 10
+            - npm install --production
+      - upload-artifact:
+          script:
+            - pipelines-artifact start
+            - pipelines-artifact upload $SOURCE_DIR
+  fail-on-build:
+    steps:
+      - fail:
+          script:
+            - pipelines-artifact fail 
