@@ -9,8 +9,8 @@ events:
     steps:
       - build:
           script:
-            - nvm install 10
-            - nvm use 10
+            - nvm install 16
+            - nvm use 16
             - npm install --production
       - upload-artifact:
           script:
