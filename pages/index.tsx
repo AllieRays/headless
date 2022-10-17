@@ -35,7 +35,7 @@ export default function IndexPage({ menus, events, places }: IndexPageProps) {
             </div>
             <div className="w-full lg:w-1/2 lg:pl-24">
               <Image
-                src="/CMS_icon_0.png"
+                src="/Headless-600px.png"
                 alt="Logo"
                 width={200}
                 height={227}
