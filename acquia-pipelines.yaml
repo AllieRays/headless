@@ -12,7 +12,7 @@ events:
             - nvm install 16
             - nvm use 16
             - npm install
-            - npm run preview
+            - npm run build
       - upload-artifact:
           script:
             - pipelines-artifact start
