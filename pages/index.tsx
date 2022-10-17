@@ -29,9 +29,8 @@ export default function IndexPage({ menus, events, places }: IndexPageProps) {
                 A headless Next.js site
               </h1>
               <p className="text-md lg:text-xl font-light text-gray-800 mb-8">
-                This is placeholder text. If you are reading this, it is here by
-                mistake and we would appreciate it if you could email us with a
-                link to the page you found it on. This is placeholder text.
+                  The Acquia CMS Headless starter kit aims to preconfigure Drupal for serving structured, RESTful content to third-party content displays such as mobile apps, smart displays, and front-end driven websites.
+                  This starter kit ensures that the most common Drupal modules for headless content delivery are available and preconfigured in your codebase.
               </p>
             </div>
             <div className="w-full lg:w-1/2 lg:pl-24">
