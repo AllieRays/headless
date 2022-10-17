@@ -37,8 +37,8 @@ export default function IndexPage({ menus, events, places }: IndexPageProps) {
               <Image
                 src="/Headless-600px.png"
                 alt="Logo"
-                width={200}
-                height={227}
+                width={638}
+                height={600}
               />
             </div>
           </div>
