@@ -11,7 +11,7 @@ events:
           script:
             - nvm install 16
             - nvm use 16
-            - next build
+            - npm build
       - upload-artifact:
           script:
             - pipelines-artifact start
