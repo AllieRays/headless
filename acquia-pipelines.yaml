@@ -11,10 +11,9 @@ events:
           script:
             - nvm install 16
             - nvm use 16
-            - npm install --production
+            - next build
       - upload-artifact:
           script:
-            - pipelines-artifact build
             - pipelines-artifact start
             - pipelines-artifact upload $SOURCE_DIR
   fail-on-build:
